@@ -1,0 +1,29 @@
+# Build output
+.build/
+build/
+*.xcodeproj/
+.swiftpm/
+
+# Engine binaries come from upstream releases, see NOTES.md
+Vendor/
+
+# Models, audio and personal data never go in this public repo
+*.bin
+*.gguf
+*.wav
+*.m4a
+*.mp3
+dictionary.json
+history.json
+snippets.json
+Recordings/
+ui-snapshots/
+
+# Windows build output
+windows/**/bin/
+windows/**/obj/
+windows/**/.vs/
+*.user
+
+.DS_Store
+Thumbs.db
